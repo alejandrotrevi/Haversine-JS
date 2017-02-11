@@ -6,13 +6,16 @@ Original implementation and credits: [Movable Type](http://www.movable-type.co.u
 
 ### Installation
 You have two options to use the script:
+
 ##### Bower
 - Installing Bower: [Bower](https://bower.io/)
 - `bower install haversine-js`
 - include haversine.min.js in your html.
+
 ##### Manual
 - Download script [Github](https://github.com/p4rz1val/haversine/blob/master/src/haversine.min.js)
 - Include haversine.min.js in your html.
+
 ### Usage
 Just give `getDistance()` two coordinates in this format:
 ```
@@ -29,6 +32,7 @@ Where `distance` is of course the distance in meters.
 Implementación original y créditos: [Movable Type](http://www.movable-type.co.uk/scripts/latlong.html) 
 ### Instalación
 Tienes dos opciones para usar el script:
+
 ##### Bower
 - Instalar bower [Bower](https://bower.io/)
 - `bower install haversine-js`
