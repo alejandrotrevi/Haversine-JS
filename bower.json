@@ -1,13 +1,13 @@
 {
-  "name": "Harvesine formula",
-  "homepage": "https://github.com/p4rz1val/harvesine",
+  "name": "Haversine formula",
+  "homepage": "https://github.com/p4rz1val/haversine",
   "authors": [
     "Alejandro <alex_tf_1992@live.com.mx>"
   ],
   "description": "Easy to use implementation of the harvesine formula.",
-  "main": "src/harvesine.min.js",
+  "main": "src/haversine.min.js",
   "keywords": [
-    "Harvesine"
+    "Haversine"
   ],
   "license": "MIT",
   "ignore": [
