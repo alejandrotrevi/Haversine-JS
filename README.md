@@ -1,4 +1,4 @@
-# Harversine
+# Haversine
 Haversine formula
 
 # English
