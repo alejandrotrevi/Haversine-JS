@@ -1,0 +1,20 @@
+{
+  "name": "Harvesine formula",
+  "homepage": "https://github.com/p4rz1val/harvesine",
+  "authors": [
+    "Alejandro <alex_tf_1992@live.com.mx>"
+  ],
+  "description": "Easy to use implementation of the harvesine formula.",
+  "main": "src/harvesine.min.js",
+  "keywords": [
+    "Harvesine"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

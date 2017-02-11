@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example - Ejemplo</title>
+</head>
+
+<body>
+    <h1>Harvesine</h1>
+    <p>Input: 18.469510, -98.257464 - 17.250959, -95.283587</p>
+    <p id="output"></p>
+
+    <!-- Include js file -->
+    <script src="../src/harvesine.min.js"></script>
+    <script>
+        // Coordinates A and B - Coordenadas A y B
+
+        var distance = getDistance(
+            {lat: 18.469510, lng: -98.257464},
+            {lat: 17.250959, lng: -95.283587}
+        );
+
+        document.addEventListener("DOMContentLoaded", function(event) { 
+            
+            // Meters to km - Metros a km
+            distance = Math.round((distance / 1000) * 10) / 10 + ' km.';
+            
+            document.getElementById("output").textContent=distance;
+
+        });
+    </script>
+</body>
+
+</html>
