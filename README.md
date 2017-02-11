@@ -1,5 +1,5 @@
 # Harversine
-Harvesine formula
+Haversine formula
 
 # English
 Original implementation and credits: [Movable Type](http://www.movable-type.co.uk/scripts/latlong.html) 
