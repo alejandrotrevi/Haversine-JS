@@ -19,7 +19,7 @@ You have two options to use the script:
 ### Usage
 Just give `getDistance()` two coordinates in this format:
 ```
-getDistance({18.469510, -98.257464}, {17.250959, -95.283587});
+getDistance({lat: 18.469510, lng: -98.257464}, {lat: 17.250959, lng: -95.283587});
 ```
 The function returns the distance in meters, you can transform the distance to km like this:
 ```
@@ -45,7 +45,7 @@ Tienes dos opciones para usar el script:
 ### Uso
 Dale a `getDistance()` dos coordenadas en este formato:
 ```
-getDistance({18.469510, -98.257464}, {17.250959, -95.283587});
+getDistance({lat: 18.469510, lng: -98.257464}, {lat: 17.250959, lng: -95.283587});
 ```
 La función retorna la distancia en metros, si quieres transformarla a km puedes hacer lo siguiente:
 ```
